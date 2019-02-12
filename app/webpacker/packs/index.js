@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     <Router>
       <div>
         <Header/>
-        <hr/>
-        <Route path="/" component={App} />
+        <div className="container-fluid">
+          <Route path="/" component={App} />
+        </div>
       </div>
     </Router>,
     document.body.appendChild(document.createElement('div')),

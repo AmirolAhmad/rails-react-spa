@@ -10,10 +10,19 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/about" component={About} />
+          <Route component={NoMatch} />
         </Switch>
       </div>
     )
   }
 }
+
+const NoMatch = ({ location }) => (
+  <div>
+    <h3>
+      No match for <code>{location.pathname}</code>
+    </h3>
+  </div>
+);
 
 export default App
