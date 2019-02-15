@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom'
 class Header extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link to="/" className="navbar-brand">9M2ROL</Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a className="navbar-brand mr-auto mr-lg-0" href="#">Amirol</a>
+        <button className="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+
+        <div className="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+          <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>
             </li>
