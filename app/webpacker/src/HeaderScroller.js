@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom'
 class HeaderScroller extends React.Component {
   render() {
     return (
-      <div class="nav-scroller bg-white shadow-sm">
-        <nav class="nav nav-underline">
-          <a class="nav-link active" href="#">Dashboard</a>
-          <a class="nav-link" href="#">
+      <div className="nav-scroller bg-white shadow-sm">
+        <nav className="nav nav-underline">
+          <a className="nav-link active" href="#">Dashboard</a>
+          <a className="nav-link" href="#">
             Friends
-            <span class="badge badge-pill bg-light align-text-bottom">27</span>
+            <span className="badge badge-pill bg-light align-text-bottom">27</span>
           </a>
-          <a class="nav-link" href="#">Explore</a>
-          <a class="nav-link" href="#">Suggestions</a>
-          <a class="nav-link" href="#">Link</a>
-          <a class="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Explore</a>
+          <a className="nav-link" href="#">Suggestions</a>
+          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Link</a>
         </nav>
       </div>
     )

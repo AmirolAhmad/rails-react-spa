@@ -1,7 +1,7 @@
 import React from 'react'
 import Homepage from './Homepage'
 import About from './About'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Link } from 'react-router-dom'
 
 class App extends React.Component {
   render() {
