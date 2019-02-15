@@ -1,4 +1,4 @@
-json.extract! article, :title, :description
+json.extract! article, :id, :title, :description
 json.author do
   json.email article.user.email
 end
