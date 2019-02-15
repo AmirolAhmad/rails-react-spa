@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from '../components/App'
+import App from './components/App'
 import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import Header from '../src/Header'
-import HeaderScroller from '../src/HeaderScroller'
+import Header from './Header'
+import HeaderScroller from './HeaderScroller'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(

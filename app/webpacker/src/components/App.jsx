@@ -10,6 +10,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/about" component={About} />
+          <Route path="/login" component={() => { window.location = "http://localhost:3000/login" }} />
           <Route component={NoMatch} />
         </Switch>
       </div>
